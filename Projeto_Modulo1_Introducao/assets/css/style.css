@@ -1,0 +1,196 @@
+/* estilos da minha pagina web */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #F8F8F8; 
+}
+
+/* ------------------------------------------- */
+/* classes geral */
+.text-center{
+    text-align: center;
+}
+
+.margin-top-40{
+    margin-top: 40px;
+}
+
+/* ------------------------------------------- */
+/* cabecalho */
+.container-cabecalho{
+   text-align: center;
+   padding: 20px;
+   background-color: #2C3135; 
+}
+
+.container-cabecalho h3{
+    font-weight: 600;
+    font-size: 2em;
+    color: #7174f5; 
+}
+
+/* ------------------------------------------- */
+/* navegação */
+.container-nav{
+    text-align: center;
+    padding: 20px;
+    background-color: #343A40; 
+}
+
+.container-nav a{
+    font-size: 1.5em;
+    margin: 0px 50px;
+    text-decoration: none;
+    color: #ADB5BD; 
+    transition: color 0.3s
+}
+
+.container-nav a:hover{
+    color: #F8F8F8; 
+    text-decoration: underline;
+}  
+
+/* ------------------------------------------- */
+/* quem somos */
+.container-quemsomos{
+    background-color: #212529; 
+    overflow: auto;
+}
+
+.container-quemsomos .servico{
+    float: center;
+    margin: 60px auto;
+    background-color: #2C3135; 
+    width: 50%;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container-quemsomos .servico img{
+    margin-bottom: 10px;
+}
+
+.container-quemsomos .servico-texto{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color:  #CED4DA; 
+}
+
+.container-quemsomos .servico-texto-realce {
+    color: #824caf; 
+    font-weight: bold;
+}
+/* ------------------------------------------- */
+/* contactos */
+.container-servicos-contactos{
+    background-color: #343A40; 
+    padding: 55px;
+    text-align: center;
+}
+
+.container-servicos-contactos .botoes-servicos-contactos{
+    padding: 60px;
+    text-align: center;
+}
+.botoes-servicos-contactos a{
+    display: block;
+    max-width: 200px;
+    text-decoration: none;
+    font-size: 1.2em;
+    background-color: #824caf; 
+    color: white;
+    padding: 20px 60px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.botoes-servicos-contactos a:hover{
+    background-color: #5f3780; 
+    color: #F8F8F8; 
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* pag 2- servicos */
+
+.container-servicos {
+    background-color: #212529; 
+    font-size: 1.1em;
+    padding: 60px;
+    overflow: auto;
+}
+ .container-servicos h1{
+    font-size: 3em;
+    color: #F8F8F8; 
+    margin-bottom: 20px;
+ }
+
+ .container-servicos h3{
+    color: #824caf; 
+    padding: 20px 0px;
+ }
+
+ .container-servicos article{
+    width: 40%;
+    margin: auto;
+    float: center;
+ }
+
+ .container-servicos li{
+    margin-bottom: 20px;
+    margin-left: 50px;
+    color: #F8F8F8; 
+ }
+/* ------------------------------------------- */
+/* contatos */
+.container-contatos{
+    background-color: #212529; 
+    padding: 60px;
+}
+
+.container-contatos h1{
+    font-size: 3em;
+    color: #F8F8F8; 
+    margin-bottom: 20px;
+ }
+
+ .container-contatos h3{
+    font-size: 1.5em;
+    font-weight: 100;
+    width: 40%;
+    margin: auto;
+    color: #CED4DA; 
+    margin-bottom: 20px;
+    border: 1px solid #495057; 
+    background-color: #2C3135; 
+    border-radius: 10px;
+    padding: 20px;
+ }
+
+ .container-contatos .contatos{
+    display: block;
+    font-size: 2em;
+    text-decoration: none;
+    color : #5e4caf; /* Verde vibrante */
+    margin-bottom: 20px;
+ }
+
+ .contatos:hover{
+    color: #F8F8F8; /* Branco suave no hover */
+    text-decoration: underline;
+    transition: color 0.4s, text-decoration 0.4s;
+ }
+/* ------------------------------------------- */
+/* rodapé */
+footer{
+    text-align: center;
+    padding: 80px;
+    color: #6C757D; /* Cinza mais escuro */
+    background-color: #1A1D20; /* Fundo muito escuro */
+}
